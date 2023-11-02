@@ -31,7 +31,7 @@ std::string pigLatinPrevod(const std::string& recenica) {
 }
 
 int main() {
-    std::vector<std::string> recenice = {"What time is it?", "I am learning C++", "Programming is fun"};
+    std::vector<std::string> recenice = {"Koliko je sati?", "Ovo je objektno", "Hello world"};
     srand(static_cast<unsigned int>(time(nullptr)));
     int index = rand() % recenice.size();
     std::string izabranaRecenica = recenice[index];
