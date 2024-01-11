@@ -49,7 +49,7 @@ void obradiTocke(const string& imeDatoteke) {
 }
 
 int main() {
-	// Poziv funkcije za točke
+	
 	obradiTocke("points.txt");
 
 	return 0;
